@@ -1,0 +1,59 @@
+{
+    "Characters": [
+        {   
+            "id":1,
+            "name": "Homero",
+            "lastname": "Simpson",
+            "age": 36,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5kHiCzXotV6Njv8c12MmwAOiWOyPSzz7-JvRNQsn31UWq2lI8nvab8QgqTB8MuAb_yQ&usqp=CAU" ,
+            "father":"Abraham Simpson",
+            "mother": "Mona Simpson",
+            "Friends": ["Moe", "Lenny","Carl"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":2,
+            "name": "Marge",
+            "lastname": "Simpson",
+            "age": 34,
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWvfFx0f3HXQr7Vw_MeOy-fsyi6ba0UCYEYQOSlPvUZFGaXL2eQL44bNiHV92X0Sp0n4&usqp=CAU" ,
+            "father":"Clancy Bouvier",
+            "mother": "Jaqueline Bouvier",
+            "Friends": ["Luann", "Manjula","Ned"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":3,
+            "name": "Bart",
+            "lastname": "Simpson",
+            "age": 10,
+            "photo": "http://1.bp.blogspot.com/-jYW8-S18IwM/TfvL3iC71OI/AAAAAAAAACY/NzWg5fGz_Ik/s1600/500px-Bart_Simpson.png" ,
+            "father":"Homero Simpson",
+            "mother": "Marge Simpson",
+            "Friends": ["Milhouse", "Nelson","Ralph"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":4,
+            "name": "Lisa",
+            "lastname": "Simpson",
+            "age": 8,
+            "photo": "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/16/11/enhanced/webdr01/enhanced-buzz-18300-1447692196-0.jpg?output-format=webp&output-quality=auto" ,
+            "father":"Homero Simpson",
+            "mother": "Marge Simpson",
+            "Friends": ["Murphy", "Martin","Santa"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":5,
+            "name": "Maggie",
+            "lastname": "Simpson",
+            "age": 1,
+            "photo": "http://silviaalonsoperez.com/wp-content/uploads/2014/12/IMG_0699.gif" ,
+            "father":"Homero Simpson",
+            "mother": "Marge Simpson",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        }
+    ]
+}
