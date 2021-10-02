@@ -13,8 +13,10 @@ export default class Home extends React.Component{
             <div>
                 {Data.Characters.map((element)=>(
                     <Character
-                    name={element.name+ " "+element.lastname}
-                    url={element.photo}
+                    id={element.id}
+                    name={element.name}
+                    lastname={element.lastname}
+                    photo={element.photo}
                 />
                 ))}
                 

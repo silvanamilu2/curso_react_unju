@@ -2,17 +2,14 @@ import React from "react";
 
 
 
-export default class About extends React.Component{
-    constructor(){
-        super()
-    }
-    render(){
+export default function About(){
+   
         return (
             <div>
                 <h4>Silvana Fuentes</h4>
                 <p>Tp. Curso React</p>
             </div>
         )
-    }
+    
 
 }

@@ -1,7 +1,7 @@
 {
     "Characters": [
         {   
-            "id":1,
+            "id":"1",
             "name": "Homero",
             "lastname": "Simpson",
             "age": 36,
@@ -12,7 +12,7 @@
             "City": "Springfield" 
         },
         {   
-            "id":2,
+            "id":"2",
             "name": "Marge",
             "lastname": "Simpson",
             "age": 34,
@@ -23,18 +23,18 @@
             "City": "Springfield" 
         },
         {   
-            "id":3,
+            "id":"3",
             "name": "Bart",
             "lastname": "Simpson",
             "age": 10,
-            "photo": "http://1.bp.blogspot.com/-jYW8-S18IwM/TfvL3iC71OI/AAAAAAAAACY/NzWg5fGz_Ik/s1600/500px-Bart_Simpson.png" ,
+            "photo": "https://screenfiction.org/content/image/0/204/791/73569958-regular.webp" ,
             "father":"Homero Simpson",
             "mother": "Marge Simpson",
             "Friends": ["Milhouse", "Nelson","Ralph"],
             "City": "Springfield" 
         },
         {   
-            "id":4,
+            "id":"4",
             "name": "Lisa",
             "lastname": "Simpson",
             "age": 8,
@@ -45,13 +45,134 @@
             "City": "Springfield" 
         },
         {   
-            "id":5,
+            "id":"5",
             "name": "Maggie",
             "lastname": "Simpson",
             "age": 1,
-            "photo": "http://silviaalonsoperez.com/wp-content/uploads/2014/12/IMG_0699.gif" ,
+            "photo": "https://screenfiction.org/content/image/0/204/817/e4124fb7-regular.webp" ,
             "father":"Homero Simpson",
             "mother": "Marge Simpson",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"6",
+            "name": "Moe",
+            "lastname": "Szyslak",
+            "age": 28,
+            "photo": "https://screenfiction.org/content/image/0/204/795/dac71596-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"7",
+            "name": "Waylon",
+            "lastname": "Smithers",
+            "age": 40,
+            "photo": "https://screenfiction.org/content/image/0/204/827/5112cc74-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"8",
+            "name": "Montgomery",
+            "lastname": "Burns",
+            "age": 104,
+            "photo": "https://screenfiction.org/content/image/0/204/793/14b6fb66-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"9",
+            "name": "Lenny",
+            "lastname": "Leonard",
+            "age": 39,
+            "photo": "https://screenfiction.org/content/image/0/204/801/de188925-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"10",
+            "name": "Ned",
+            "lastname": "Flanders",
+            "age": 60,
+            "photo": "https://screenfiction.org/content/image/0/204/813/2b83db19-regular.webp" ,
+            "father":"Nedward Flanders",
+            "mother": "Mona Flanders",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"11",
+            "name": "Carl",
+            "lastname": "Carlson",
+            "age": 39,
+            "photo": "https://screenfiction.org/content/image/0/204/809/04afa803-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"12",
+            "name": "Apu",
+            "lastname": "Nahasapeemapetilon",
+            "age": 37,
+            "photo": "https://screenfiction.org/content/image/0/204/797/e8615dd8-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"13",
+            "name": "Milhouse",
+            "lastname": "Van Houten",
+            "age": 11,
+            "photo": "https://screenfiction.org/content/image/0/204/805/9e62f0ee-regular.webp" ,
+            "father":"Kirk Van Houten",
+            "mother": "Luann Van Houten",
+            "Friends": ["Bart", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"14",
+            "name": "Abraham",
+            "lastname": "Simpson",
+            "age": 83,
+            "photo": "https://screenfiction.org/content/image/0/204/811/305684e2-regular.webp" ,
+            "father":" - ",
+            "mother": " - ",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"15",
+            "name": "Seymour",
+            "lastname": "Skinner",
+            "age": 67,
+            "photo": "https://screenfiction.org/content/image/0/204/803/9690b405-regular.webp" ,
+            "father":"Sheldon Skinner",
+            "mother": "Inés Skinner",
+            "Friends": ["Edna", "Joe","Kent"],
+            "City": "Springfield" 
+        },
+        {   
+            "id":"16",
+            "name": "Los",
+            "lastname": "Simpson",
+            "age": 1,
+            "photo": "https://screenfiction.org/content/image/0/2/206/7730b241-regular.webp" ,
+            "father":"- ",
+            "mother": " - ",
             "Friends": ["Edna", "Joe","Kent"],
             "City": "Springfield" 
         }

@@ -1,60 +1,51 @@
-import React from "react";
+import React , {useState} from "react";
 import Data from "../data/data.json";
+import { useParams } from "react-router";
 
+export default function CharacterDetail (props){
+   
+    const [dato, setState] = useState(Data.Characters[0])
 
-export default class CharacterDetail extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            currentElement: Data.Characters[0]
-        };
-    }
-    onChangeInput = (event) => {
-        this.setState(() => {
-          return {
-            currentElement: Data.Characters.find(
-              (element) => element.id == event.target.value
-            ),
-          };
-        });
+    const onChangeInput = (event) => {
+        setState(Data.Characters.find((elemento)=>elemento.id === event.target.value))
       };
-    render() {
+
         return (
-          <div className="container">
+            <>
             <select
               onChange={(event) => {
-                this.onChangeInput(event);
+                onChangeInput(event);
               }}
             >
-              {Data.Characters.map((element) => (
-                <option value={element.id}>
-                  {element.name + " " + element.lastname}
+              {Data.Characters.map((char) => (
+                <option value={char.id}>
+                  {char.name + " " + char.lastname}
                 </option>
               ))}
             </select>
             <div>
               <h3>
-                {this.state.currentElement.name +
+                {dato.name +
                   " " +
-                  this.state.currentElement.lastname}
+                  dato.lastname}
               </h3>
               <div>
-                <img src={this.state.currentElement.photo}></img>
+                <img src={dato.photo}></img>
               </div>
               <h3>Información:</h3>
-              <p>Nombre: {this.state.currentElement.name}</p>
-              <p>Apellido: {this.state.currentElement.lastname}</p>
-              <p> Edad: {this.state.currentElement.age + " años"}</p>
-              <p>Madre: {this.state.currentElement.mother}</p>
-              <p>Padre: {this.state.currentElement.father}</p>
-              <p>Amigos:   {this.state.currentElement.Friends.map((frend) => (
+              <p>Nombre: {dato.name}</p>
+              <p>Apellido: {dato.lastname}</p>
+              <p> Edad: {dato.age + " años"}</p>
+              <p>Madre: {dato.mother}</p>
+              <p>Padre: {dato.father}</p>
+              <p>Amigos:   {dato.Friends.map((frend) => (
               <ul>
                   <li>{frend}</li>
               </ul>
           ))}</p>
             </div>
-          </div>
+          </>
         );
-      }
+      
     }
     

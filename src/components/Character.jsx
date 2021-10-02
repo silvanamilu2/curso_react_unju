@@ -1,11 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import { useParams } from "react-router";
 
-
-export default class Character extends React.Component{
-    constructor(props){
-        super();
-    }
-    render(){
+export default function Character (props){
         const style = {
             margin: '0 auto',
             background: 'var(--card-color)',
@@ -14,12 +11,14 @@ export default class Character extends React.Component{
           };
         return (
             <div style={style}>
-                <div>
-                    <img src={this.props.url}></img>
-                </div>
-                <div>{this.props.name}</div>
+               <div> 
+                    <NavLink to={`/CharDetail/${props.id}`}>
+                        <img src={props.photo}></img>
+                        <p>{props.name} {props.lastname}</p>
+                    </NavLink>
+                </div> 
             </div>
         )
-    }
+    
 
 }
