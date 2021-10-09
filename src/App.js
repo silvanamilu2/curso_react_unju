@@ -18,7 +18,7 @@ function App() {
   },[])
 
   return (
-<>
+<div className="fondo">
     <NavBar/>
 
     <Switch>
@@ -44,7 +44,7 @@ function App() {
       </Route>
 
   </Switch>
-  </>
+  </div>
   );
 }
 

@@ -1,6 +1,9 @@
 import React , {useState} from "react";
 import Data from "../data/data.json";
 import { useParams } from "react-router";
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './characterDetail.css';
 
 export default function CharacterDetail (props){
    
@@ -11,18 +14,23 @@ export default function CharacterDetail (props){
       };
 
         return (
-            <>
+         
+            <div name="name" className="personajes" > 
+           
+
             <select
               onChange={(event) => {
                 onChangeInput(event);
               }}
             >
+              
               {Data.Characters.map((char) => (
                 <option value={char.id}>
                   {char.name + " " + char.lastname}
                 </option>
               ))}
             </select>
+          
             <div>
               <h3>
                 {dato.name +
@@ -31,7 +39,8 @@ export default function CharacterDetail (props){
               </h3>
               <div>
                 <img src={dato.photo}></img>
-              </div>
+              </div> 
+           
               <h3>Información:</h3>
               <p>Nombre: {dato.name}</p>
               <p>Apellido: {dato.lastname}</p>
@@ -43,9 +52,20 @@ export default function CharacterDetail (props){
                   <li>{frend}</li>
               </ul>
           ))}</p>
+         
             </div>
-          </>
+            
+
+            
+
+
+          </div>
         );
+
+
+       
+        
+       
       
     }
     
